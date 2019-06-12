@@ -1,0 +1,37 @@
+{
+    "group":       "BaiduMap",
+    "libs":        [],
+    "frameworks":  [ 
+                    "CoreTelephony.framework",
+                    "AssetsLibrary.framework",
+                    "QuartzCore.framework",
+                    "Security.framework",
+                    "JavaScriptCore.framework",
+                    "CoreText.framework",
+                    "AVFoundation.framework",
+                    "SystemConfiguration.framework",
+                    "Foundation.framework",
+                    "AudioToolbox.framework",
+                    "UIKit.framework",
+                    "CoreLocation.framework",
+                    "AddressBook.framework",
+                    "Contacts.framework",
+                    "QuartzCore.framework",
+                    "CoreGraphics.framework",
+                    "Photos.framework",
+                    "CoreImage.framework",
+                    "ImageIO.framework",
+                    "MediaToolbox.framework",
+                    "CoreBluetooth.framework",
+                    "UserNotifications.framework"
+                    ],
+    "zips":         [],                
+    "headerpaths": [],
+    "librarypaths": [],
+    "files":       [],
+    "folders":     [],
+    "buildSettings": { 
+        "OTHER_LDFLAGS" : []
+    },
+    "excludes":    ["^.*.meta$", "^.*.mdown^", "^.*.pdf$","^.*.DS_Store"]
+}

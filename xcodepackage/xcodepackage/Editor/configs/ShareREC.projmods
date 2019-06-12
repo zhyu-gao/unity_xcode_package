@@ -1,0 +1,43 @@
+{
+    "group":       "SDK",
+    "libs":        [],
+    "frameworks":  ["ImageIO.framework",
+                    "MessageUI.framework",
+                    "JavaScriptCore.framework",
+                    "CoreTelephony.framework",
+                    "AssetsLibrary.framework",
+                    "QuartzCore.framework",
+                    "Security.framework",
+                    "JavaScriptCore.framework",
+                    "CoreText.framework",
+                    "libz.1.2.5.tbd",
+                    "libicucore.A.tbd",
+                    "libc++.tbd"
+                    ],
+    "zips":         ["SDK.zip"],                
+    "headerpaths": [],
+    "librarypaths": [],
+    "files":       ["SDK/Required/MOBFoundation.framework",
+                    "SDK/Required/MOBFoundationEx.framework",
+                    "SDK/ShareREC/ShareREC.framework",
+                    "SDK/ShareREC/ShareRECCloud.framework",
+                    "SDK/ShareREC/ShareRECEdit.framework",
+                    "SDK/ShareREC/ShareRECSocial.framework",
+                    "SDK/ShareSDK/ShareSDK.framework",
+                    "SDK/ShareSDK/Support/Required/ShareSDKConnector.framework",
+                    "SDK/ShareSDK/Support/Optional/ShareSDKExtension.framework",
+                    "SDK/ShareSDK/Support/Optional/ShareSDKUI.framework",
+                    "SDK/ShareSDK/Support/PlatformConnector/WechatConnector.framework",
+                    ],
+    "embedfiles":[
+        
+    ],
+    "folders":     [],
+    "buildSettings": { 
+        "OTHER_LDFLAGS" : ["-lz",
+                            "-ObjC",
+                           "-lsqlite3.0",
+                           "licucore"]
+    },
+    "excludes":    ["^.*.meta$", "^.*.mdown^", "^.*.pdf$","^.*.DS_Store"]
+}
